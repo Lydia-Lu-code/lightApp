@@ -14,6 +14,7 @@
 		008D6B19289978D3006EF77D /* lightApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 008D6B17289978D3006EF77D /* lightApp.xcdatamodeld */; };
 		008D6B1B289978DA006EF77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008D6B1A289978DA006EF77D /* Assets.xcassets */; };
 		008D6B1E289978DA006EF77D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008D6B1C289978DA006EF77D /* LaunchScreen.storyboard */; };
+		008D6B2628997909006EF77D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008D6B2528997909006EF77D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		008D6B1A289978DA006EF77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008D6B1D289978DA006EF77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008D6B1F289978DA006EF77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008D6B2528997909006EF77D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				008D6B10289978D3006EF77D /* SceneDelegate.swift */,
 				008D6B12289978D3006EF77D /* ViewController.swift */,
 				008D6B14289978D3006EF77D /* Main.storyboard */,
+				008D6B2528997909006EF77D /* File.swift */,
 				008D6B1A289978DA006EF77D /* Assets.xcassets */,
 				008D6B1C289978DA006EF77D /* LaunchScreen.storyboard */,
 				008D6B1F289978DA006EF77D /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008D6B2628997909006EF77D /* File.swift in Sources */,
 				008D6B13289978D3006EF77D /* ViewController.swift in Sources */,
 				008D6B0F289978D3006EF77D /* AppDelegate.swift in Sources */,
 				008D6B19289978D3006EF77D /* lightApp.xcdatamodeld in Sources */,
