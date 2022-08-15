@@ -25,7 +25,7 @@ let numerologys = [Numerology(numerologyKey: 1, numerologyValue: "紅"),
            Numerology(numerologyKey: 5, numerologyValue: "藍"),
            Numerology(numerologyKey: 6, numerologyValue: "靛"),
            Numerology(numerologyKey: 7, numerologyValue: "紫"),
-           Numerology(numerologyKey: 8, numerologyValue: "金/粉"),
+           Numerology(numerologyKey: 8, numerologyValue: "粉"),
            Numerology(numerologyKey: 9, numerologyValue: "白")]
 
 //let 生命靈數 = [1:"紅", 2:"橙", 3:"黃", 4:"綠", 5:"藍", 6:"靛", 7:"紫", 8:"金粉", 9:"白"]
