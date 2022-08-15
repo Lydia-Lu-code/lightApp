@@ -24,15 +24,19 @@ class ViewController: UIViewController,UITextFieldDelegate {
         super.viewDidLoad()
     
         hiddenView.isHidden = true
+        hiddenView.backgroundColor = UIColor.clear
         
         for i in 0...colorButtons.count - 1{
             colorButtons[i].setTitle("\(numerologys[i].numerologyValue)", for: .normal)
+            colorButtons[i].backgroundColor = UIColor.clear
         }
         
         numTextField.delegate = self
         numTextField.keyboardType = .numberPad
         addTapGesture()
         addDoneBtn()
+        
+        view.backgroundColor = UIColor(displayP3Red: 235/255, green: 235/255, blue: 227/255, alpha: 1)
         
     }
     
@@ -54,7 +58,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         printAns(saveInt, saveColorStr)
         
         
-    }
+        }
 
     func addTapGesture(){
             let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
